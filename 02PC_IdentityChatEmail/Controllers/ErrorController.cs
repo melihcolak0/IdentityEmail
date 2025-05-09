@@ -8,5 +8,10 @@ namespace _02PC_IdentityChatEmail.Controllers
         {
             return View();
         }
+
+        public IActionResult Page401()
+        {
+            return View();
+        }
     }
 }
