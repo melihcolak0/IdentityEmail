@@ -15,5 +15,7 @@
         public bool IsRead { get; set; }
 
         public DateTime SendDate { get; set; }
+
+        public bool IsDeleted { get; set; }
     }
 }

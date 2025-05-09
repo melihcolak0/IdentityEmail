@@ -3,7 +3,7 @@
     ViewData["Title"] = "ProfileDetail";
     Layout = "~/Views/Shared/_MessageLayout.cshtml";
 }
-@* <div class="email-list mt-4 ml-4 d-flex">
+<div class="email-list d-flex">
     <div class="mr-4">
         <img src="@ViewBag.profileimage"
              alt="Profil Fotoğrafı"            
@@ -34,8 +34,9 @@
             </li>
         </ul>
     </div>
-</div> *@
-
+</div>
+<br /> <br />
+<h4 class="mb-0">Profili Düzenle</h4>
 <form method="post" asp-action="ProfileDetail">
     <div class="compose-content mt-2">
         <div class="form-group">

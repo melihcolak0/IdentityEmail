@@ -26,5 +26,13 @@
     <hr>
 </div>
 <div class="text-right">
-    <a href="/Message/InBox" class="btn btn-primary m-b-30 m-t-15 f-s-14 p-l-20 p-r-20">Gelen Kutusuna Dön</a>
+    @if (!Model.IsDeleted)
+    {
+        <a href="/Message/DeleteMessage/@Model.MessageId" class="btn btn-danger m-b-30 m-t-15 f-s-14 p-l-20 p-r-20">
+            <i class="fa fa-trash"></i> Çöp Kutusuna Gönder
+        </a>
+    }    
+    <a href="/Message/InBox" class="btn btn-primary m-b-30 m-t-15 f-s-14 p-l-20 p-r-20">
+        <i class="fa fa-arrow-left"></i> Gelen Kutusuna Dön
+    </a>
 </div>

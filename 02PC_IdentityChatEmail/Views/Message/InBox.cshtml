@@ -11,16 +11,23 @@
                 <div class="col-mail col-mail-1">
                     <div class="email-checkbox">
                         <input type="checkbox" id="chk2">
-                        <label class="toggle" for="chk2"></label>
-                    </div><span class="star-toggle ti-star"></span>
-                </div>
-                <div class="col-mail col-mail-2 ml-1">
-                    <div class="subject">
-                        (@item.SenderMail) - @(string.IsNullOrEmpty(item.MessageDetail)? "" : (item.MessageDetail.Length > 115 ? item.MessageDetail.Substring(0, 115) + "..." : item.MessageDetail))
+                        <label class="toggle" for="chk2"></label>                        
                     </div>
-                    <div class="date">@item.SendDate.ToString("dd MMM yyyy")</div>
+                </div>
+                <div class="col-mail col-mail-2 ">
+                    <div class="subject">
+                        @if (item.IsRead)
+                        {
+                            @($"{item.SenderMail} - {(string.IsNullOrEmpty(item.MessageDetail) ? "" : (item.MessageDetail.Length > 115 ? item.MessageDetail.Substring(0, 115) + "..." : item.MessageDetail))}")
+                        }
+                        else
+                        {
+                            <b>@($"{item.SenderMail} - {(string.IsNullOrEmpty(item.MessageDetail) ? "" : (item.MessageDetail.Length > 115 ? item.MessageDetail.Substring(0, 115) + "..." : item.MessageDetail))}")</b>
+                        }                        
+                    </div>
+                    <div class="date">@item.SendDate.ToString("dd MMM yyyy")</div>                    
                 </div>                 
-            </a>
-        </div>
+            </a>            
+        </div>        
     }
 </div>

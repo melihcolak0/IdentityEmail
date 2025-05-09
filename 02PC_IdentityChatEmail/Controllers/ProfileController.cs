@@ -20,23 +20,21 @@ namespace _02PC_IdentityChatEmail.Controllers
 
         [HttpGet]
         public async Task<IActionResult> ProfileDetail()
-        {
-            //ViewBag.page = "Profilim";
-
-            //var user = await _userManager.FindByNameAsync(User.Identity.Name);
-            //ViewBag.username = user.UserName;
-            //ViewBag.name = user.Name;
-            //ViewBag.surname = user.Surname;
-            //ViewBag.email = user.Email;
-            //ViewBag.phonenumber = user.PhoneNumber;
-            //ViewBag.city = user.City;
-            //ViewBag.profileimage = user.ProfileImageUrl;
-            //return View(user);
-
+        {          
             ViewBag.page = "Profilim";
 
             ProfileEditViewModel model = new ProfileEditViewModel();
             var user = await _userManager.FindByNameAsync(User.Identity.Name);
+
+            ViewBag.username = user.UserName;
+            ViewBag.name = user.Name;
+            ViewBag.surname = user.Surname;
+            ViewBag.email = user.Email;
+            ViewBag.phonenumber = user.PhoneNumber;
+            ViewBag.city = user.City;
+            ViewBag.profileimage = user.ProfileImageUrl;
+
+
             model.Name = user.Name;
             model.Surname = user.Surname;
             model.Email = user.Email;

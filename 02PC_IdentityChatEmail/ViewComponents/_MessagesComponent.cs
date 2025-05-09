@@ -21,8 +21,9 @@ namespace _02PC_IdentityChatEmail.ViewComponents
             var user = await _userManager.FindByNameAsync(User.Identity.Name);
             string userMail = user.Email;
 
-            ViewBag.inboxCount = _context.Messages.Where(x => x.ReceiverMail == userMail).Count();
-            ViewBag.sendboxCount = _context.Messages.Where(x => x.SenderMail == userMail).Count();
+            ViewBag.inboxCount = _context.Messages.Where(x => x.ReceiverMail == userMail).Where(z => z.IsDeleted == false).Count();
+            ViewBag.sendboxCount = _context.Messages.Where(x => x.SenderMail == userMail).Where(z => z.IsDeleted == false).Count();
+            ViewBag.dustbinCount = _context.Messages.Where(x => x.ReceiverMail == userMail || x.SenderMail == userMail).Where(z => z.IsDeleted == true).Count();
             return View();
         }
     }
