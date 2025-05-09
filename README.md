@@ -23,7 +23,7 @@ Bu projede ASP.NET Core Identity, kullanıcıların sisteme kayıt olması, giri
 
 ASP.NET Core Identity, projeyi hem güvenli hem de genişletilebilir hale getirerek, kullanıcı tabanlı uygulamalar için sağlam bir temel sunmuştur.
 
-Projede genel anlamda 1 bölüm bulunmaktadır;
+Projede genel anlamda 1 bölüm bulunmaktadır.<br>
 Ana Sayfa: Burada Profilim, Gelen Mesajlar, Gönderilen Mesajlar, Giriş Yapma, Kayıt Olma ve Çıkış Yapma işlemleri yer alıyor.
 
 Kullandığım Teknolojiler <br>
@@ -38,22 +38,28 @@ Kullandığım Teknolojiler <br>
 
 ### :triangular_flag_on_post: Ana Sayfa
 <div align="center">
-  <img src="https://github.com/melihcolak0/IdentityEmail/blob/96f25b583311c059e7fc3f5afe41424345953e67/ss/profile.jpg" alt="image alt">
+  <img src="https://github.com/melihcolak0/IdentityEmail/blob/1fe820118214e7c5a60536ff17c4121ca3d9493d/ss2/profile2.png" alt="image alt">
 </div>
 <div align="center">
-  <img src="https://github.com/melihcolak0/IdentityEmail/blob/96f25b583311c059e7fc3f5afe41424345953e67/ss/inbox.jpg" alt="image alt">
+  <img src="https://github.com/melihcolak0/IdentityEmail/blob/1fe820118214e7c5a60536ff17c4121ca3d9493d/ss2/inbox2.jpg" alt="image alt">
 </div>
 <div align="center">
-  <img src="https://github.com/melihcolak0/IdentityEmail/blob/96f25b583311c059e7fc3f5afe41424345953e67/ss/inboxdetail.jpg" alt="image alt">
+  <img src="https://github.com/melihcolak0/IdentityEmail/blob/1fe820118214e7c5a60536ff17c4121ca3d9493d/ss2/inboxdetail2.jpg" alt="image alt">
 </div>
 <div align="center">
-  <img src="https://github.com/melihcolak0/IdentityEmail/blob/96f25b583311c059e7fc3f5afe41424345953e67/ss/sendbox.jpg" alt="image alt">
+  <img src="https://github.com/melihcolak0/IdentityEmail/blob/1fe820118214e7c5a60536ff17c4121ca3d9493d/ss2/sendbox2.jpg" alt="image alt">
 </div>
 <div align="center">
-  <img src="https://github.com/melihcolak0/IdentityEmail/blob/96f25b583311c059e7fc3f5afe41424345953e67/ss/sendboxdetail.jpg" alt="image alt">
+  <img src="https://github.com/melihcolak0/IdentityEmail/blob/1fe820118214e7c5a60536ff17c4121ca3d9493d/ss2/sendboxdetail2.jpg" alt="image alt">
 </div>
 <div align="center">
-  <img src="https://github.com/melihcolak0/IdentityEmail/blob/96f25b583311c059e7fc3f5afe41424345953e67/ss/sendmessage.jpg" alt="image alt">
+  <img src="https://github.com/melihcolak0/IdentityEmail/blob/1fe820118214e7c5a60536ff17c4121ca3d9493d/ss2/dustbin2.jpg" alt="image alt">
+</div>
+<div align="center">
+  <img src="https://github.com/melihcolak0/IdentityEmail/blob/1fe820118214e7c5a60536ff17c4121ca3d9493d/ss2/createmessage2.jpg" alt="image alt">
+</div>
+<div align="center">
+  <img src="https://github.com/melihcolak0/IdentityEmail/blob/1fe820118214e7c5a60536ff17c4121ca3d9493d/ss2/messageconfirmed.jpg" alt="image alt">
 </div>
 
 ### :triangular_flag_on_post: Diğer Sayfalar
