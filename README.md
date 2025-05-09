@@ -24,11 +24,10 @@ Bu projede ASP.NET Core Identity, kullanıcıların sisteme kayıt olması, giri
 ASP.NET Core Identity, projeyi hem güvenli hem de genişletilebilir hale getirerek, kullanıcı tabanlı uygulamalar için sağlam bir temel sunmuştur.
 
 Projede genel anlamda 1 bölüm bulunmaktadır;
-
-1- Ana Sayfa: Burada Profilim, Gelen Mesajlar, Gönderilen Mesajlar, Giriş Yapma, Kayıt Olma ve Çıkış Yapma işlemleri yer alıyor.
+Ana Sayfa: Burada Profilim, Gelen Mesajlar, Gönderilen Mesajlar, Giriş Yapma, Kayıt Olma ve Çıkış Yapma işlemleri yer alıyor.
 
 Kullandığım Teknolojiler <br>
-⚙️ ASP.NET Core 6.0 Web Application (MVC Yapısı) <br>
+⚙️ ASP.NET Core 8.0 Web Application (MVC Yapısı) <br>
 🛢️ Entity Framework Core (Code First) <br>
 🎨 HTML5, CSS3, Bootstrap 5 ve JavaScript <br>
 🗂️ Katmanlı yapı: Entities, Controllers, Models, Views <br>
@@ -55,4 +54,18 @@ Kullandığım Teknolojiler <br>
 </div>
 <div align="center">
   <img src="https://github.com/melihcolak0/IdentityEmail/blob/96f25b583311c059e7fc3f5afe41424345953e67/ss/sendmessage.jpg" alt="image alt">
+</div>
+
+### :triangular_flag_on_post: Diğer Sayfalar
+<div align="center">
+  <img src="https://github.com/melihcolak0/IdentityEmail/blob/96f25b583311c059e7fc3f5afe41424345953e67/ss/login.jpg" alt="image alt">
+</div>
+<div align="center">
+  <img src="https://github.com/melihcolak0/IdentityEmail/blob/96f25b583311c059e7fc3f5afe41424345953e67/ss/register.jpg" alt="image alt">
+</div>
+<div align="center">
+  <img src="https://github.com/melihcolak0/IdentityEmail/blob/96f25b583311c059e7fc3f5afe41424345953e67/ss/page401.jpg" alt="image alt">
+</div>
+<div align="center">
+  <img src="https://github.com/melihcolak0/IdentityEmail/blob/96f25b583311c059e7fc3f5afe41424345953e67/ss/page403.jpg" alt="image alt">
 </div>
