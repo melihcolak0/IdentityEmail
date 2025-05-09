@@ -24,11 +24,10 @@ Bu projede ASP.NET Core Identity, kullanıcıların sisteme kayıt olması, giri
 ASP.NET Core Identity, projeyi hem güvenli hem de genişletilebilir hale getirerek, kullanıcı tabanlı uygulamalar için sağlam bir temel sunmuştur.
 
 Projede genel anlamda 1 bölüm bulunmaktadır;
-
-1- Ana Sayfa: Burada Profilim, Gelen Mesajlar, Gönderilen Mesajlar, Giriş Yapma, Kayıt Olma ve Çıkış Yapma işlemleri yer alıyor.
+Ana Sayfa: Burada Profilim, Gelen Mesajlar, Gönderilen Mesajlar, Giriş Yapma, Kayıt Olma ve Çıkış Yapma işlemleri yer alıyor.
 
 Kullandığım Teknolojiler <br>
-⚙️ ASP.NET Core 6.0 Web Application (MVC Yapısı) <br>
+⚙️ ASP.NET Core 8.0 Web Application (MVC Yapısı) <br>
 🛢️ Entity Framework Core (Code First) <br>
 🎨 HTML5, CSS3, Bootstrap 5 ve JavaScript <br>
 🗂️ Katmanlı yapı: Entities, Controllers, Models, Views <br>
@@ -39,16 +38,34 @@ Kullandığım Teknolojiler <br>
 
 ### :triangular_flag_on_post: Ana Sayfa
 <div align="center">
-  <img src="https://github.com/melihcolak0/My_Portfolio/blob/0c67d8a188bdd88b167afe8646fee30c5f4d09a1/default.png" alt="image alt">
+  <img src="https://github.com/melihcolak0/IdentityEmail/blob/96f25b583311c059e7fc3f5afe41424345953e67/ss/profile.jpg" alt="image alt">
 </div>
 <div align="center">
-  <img src="https://github.com/melihcolak0/My_Portfolio/blob/c230f9573a7f8d80d41b4db93f516b2703a23894/ss2/contact2.jpg" alt="image alt">
+  <img src="https://github.com/melihcolak0/IdentityEmail/blob/96f25b583311c059e7fc3f5afe41424345953e67/ss/inbox.jpg" alt="image alt">
+</div>
+<div align="center">
+  <img src="https://github.com/melihcolak0/IdentityEmail/blob/96f25b583311c059e7fc3f5afe41424345953e67/ss/inboxdetail.jpg" alt="image alt">
+</div>
+<div align="center">
+  <img src="https://github.com/melihcolak0/IdentityEmail/blob/96f25b583311c059e7fc3f5afe41424345953e67/ss/sendbox.jpg" alt="image alt">
+</div>
+<div align="center">
+  <img src="https://github.com/melihcolak0/IdentityEmail/blob/96f25b583311c059e7fc3f5afe41424345953e67/ss/sendboxdetail.jpg" alt="image alt">
+</div>
+<div align="center">
+  <img src="https://github.com/melihcolak0/IdentityEmail/blob/96f25b583311c059e7fc3f5afe41424345953e67/ss/sendmessage.jpg" alt="image alt">
 </div>
 
-### :triangular_flag_on_post: Admin Paneli
+### :triangular_flag_on_post: Diğer Sayfalar
 <div align="center">
-  <img src="https://github.com/melihcolak0/My_Portfolio/blob/8ffe72118e72a838348e73590a77b33e9714aaac/ss/about.jpg" alt="image alt">
+  <img src="https://github.com/melihcolak0/IdentityEmail/blob/96f25b583311c059e7fc3f5afe41424345953e67/ss/login.jpg" alt="image alt">
 </div>
 <div align="center">
-  <img src="https://github.com/melihcolak0/My_Portfolio/blob/8ffe72118e72a838348e73590a77b33e9714aaac/ss/category.jpg" alt="image alt">
+  <img src="https://github.com/melihcolak0/IdentityEmail/blob/96f25b583311c059e7fc3f5afe41424345953e67/ss/register.jpg" alt="image alt">
+</div>
+<div align="center">
+  <img src="https://github.com/melihcolak0/IdentityEmail/blob/96f25b583311c059e7fc3f5afe41424345953e67/ss/page401.jpg" alt="image alt">
+</div>
+<div align="center">
+  <img src="https://github.com/melihcolak0/IdentityEmail/blob/96f25b583311c059e7fc3f5afe41424345953e67/ss/page403.jpg" alt="image alt">
 </div>
