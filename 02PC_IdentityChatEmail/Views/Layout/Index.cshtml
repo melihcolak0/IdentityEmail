@@ -1,0 +1,99 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Identity Chat&Email Uygulaması</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="/quixlab-master/images/favicon.png">
+    <link href="/quixlab-master/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="preloader">
+        <div class="loader">
+            <svg class="circular" viewBox="25 25 50 50">
+                <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="3" stroke-miterlimit="10" />
+            </svg>
+        </div>
+    </div>
+
+    <div id="main-wrapper">
+        <br />
+        <!-- row -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="card">
+                        <div class="card-body d-flex">
+                            <div class="email-left-box" style="width: 15%;">
+                                <a href="email-compose.html" class="btn btn-primary btn-block">Yeni Mesaj Oluştur</a>
+                                <div class="mail-list mt-4">
+                                    <a href="/Profile/ProfileDetail" class="list-group-item border-0 p-r-0">
+                                        <i class="fa fa-user font-18 align-middle mr-2"></i>
+                                        Profilim
+                                    </a>
+                                    <a href="/Message/Inbox" class="list-group-item border-0 p-r-0">
+                                        <i class="fa fa-inbox font-18 align-middle mr-2"></i>
+                                        Gelen Mesajlar
+                                        <span class="badge badge-primary badge-sm float-right m-t-5">@ViewBag.inboxCount</span>
+                                    </a>
+                                    <a href="/Message/SendBox" class="list-group-item border-0 p-r-0">
+                                        <i class="fa fa-paper-plane font-18 align-middle mr-2"></i>
+                                        Gönderilen Mesajlar
+                                        <span class="badge badge-primary badge-sm float-right m-t-5">@ViewBag.sendboxCount</span>
+                                    </a>
+                                    <a href="/LogIn/LogInUser" class="list-group-item border-0 p-r-0">
+                                        <i class="fa fa-sign-in font-18 align-middle mr-2"></i>
+                                        Giriş Yap
+                                    </a>
+                                    <a href="/Register/CreateUser" class="list-group-item border-0 p-r-0">
+                                        <i class="fa fa-user-plus font-18 align-middle mr-2"></i>
+                                        Kayıt Ol
+                                    </a>
+                                    <a href="/LogIn/LogOutUser" class="list-group-item border-0 p-r-0">
+                                        <i class="fa fa-sign-out font-18 align-middle mr-2"></i>
+                                        Çıkış Yap
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="email-right-box ml-4" style="width: 85%;">
+                                <div role="toolbar" class="toolbar">
+                                    <div class="btn-group">
+                                        <h3>@ViewBag.page</h3>
+                                    </div>
+                                </div>
+                                @RenderBody()
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="footer">
+            <div class="copyright">
+                <p>Tüm hakları saklıdır. <a href="https://themeforest.net/user/quixlab">Quixlab</a> @DateTime.Now.Year</p>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="/quixlab-master/plugins/common/common.min.js"></script>
+    <script src="/quixlab-master/js/custom.min.js"></script>
+    <script src="/quixlab-master/js/settings.js"></script>
+    <script src="/quixlab-master/js/gleek.js"></script>
+    <script src="/quixlab-master/js/styleSwitcher.js"></script>
+
+</body>
+
+</html>

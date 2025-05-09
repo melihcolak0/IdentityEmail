@@ -1,0 +1,36 @@
+﻿@{
+    ViewData["Title"] = "ProfileDetail";
+    Layout = "~/Views/Shared/_MessageLayout.cshtml";
+}
+<div class="email-list mt-4 ml-4 d-flex">
+    <div class="mr-4">
+        <img src="@ViewBag.profileimage"
+             alt="Profil Fotoğrafı"            
+             class="rounded"
+             style="width: 180px; height: 180px; object-fit: cover;">
+    </div>
+    <div>
+        <ul class="list-unstyled mb-0">
+            <li class="mb-3">
+                <i class="fa fa-id-badge text-dark mr-2"></i>
+                <strong>Kullanıcı Adı:</strong> @ViewBag.username
+            </li>
+            <li class="mb-3">
+                <i class="fa fa-user text-primary mr-2"></i>
+                <strong>Adı Soyadı:</strong> @ViewBag.name @ViewBag.surname
+            </li>
+            <li class="mb-3">
+                <i class="fa fa-envelope text-success mr-2"></i>
+                <strong>E-Mail:</strong> @ViewBag.email
+            </li>
+            <li class="mb-3">
+                <i class="fa fa-phone text-info mr-2"></i>
+                <strong>Telefon:</strong> @ViewBag.phonenumber
+            </li>
+            <li class="mb-3">
+                <i class="fa fa-map-marker text-danger mr-2"></i>
+                <strong>Şehir:</strong> @ViewBag.city
+            </li>
+        </ul>
+    </div>
+</div>

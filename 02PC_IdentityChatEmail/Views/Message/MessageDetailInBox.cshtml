@@ -1,0 +1,30 @@
+﻿@model Message
+@{
+    ViewData["Title"] = "MessageDetailInBox";
+    Layout = "~/Views/Shared/_MessageLayout.cshtml";
+}
+<div class="read-content">
+    <div class="media pt-5">
+        <img class="mr-3 rounded-circle" src="@ViewBag.userImage" style="width: 100px; height: 100px;">
+        <div class="media-body">
+            <h5 class="m-b-3">@ViewBag.nameSurname</h5>
+            <p class="m-b-2"><small>(@ViewBag.email)</small></p>
+        </div>
+
+    </div>
+    <hr>
+    <div class="media mb-4 mt-1">
+        <div class="media-body">
+            <span class="float-right">@Model.SendDate.ToString("dd MMM yyyy - HH:mm")</span>
+            <strong>Konu: @Model.Subject</strong><br />
+            <small class="text-muted">(Kimden: @Model.SenderMail)</small>
+        </div>
+    </div>
+    <p>
+        @Model.MessageDetail
+    </p>
+    <hr>    
+</div>
+<div class="text-right">
+    <a href="/Message/InBox" class="btn btn-primary m-b-30 m-t-15 f-s-14 p-l-20 p-r-20">Gelen Kutusuna Dön</a>
+</div>
